@@ -18,6 +18,10 @@ bash run.sh
 
 Tip: You need to keep the script running in order to get an appointment. You can use GitHub Codespaces or a VPS to keep the script running 24/7.
 
+> [!IMPORTANT]  
+> There are occasional errors with authentication and selenium (about once per hour based on my experience), but they're expected. It's difficult to bypass the new authentication system every time, but it works out most times. Since monitor.py triggers the main script each minute, this ends up working to our advantage. Check out [#1](https://github.com/Syzygianinfern0/Texas-DPS-Scheduler/issues/1) for more details.
+> There also seems to be an IP blocking issue when the script is run for too long. I would recommend starting the script the night before you want to book the appointment.
+
 ## Project Structure
 
 - `config.example.yaml`: Example configuration file which needs to be copied to `config.yaml`

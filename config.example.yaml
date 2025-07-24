@@ -14,3 +14,5 @@ type_id: 81 # 71 for first time, 81 for renewal
 
 zip_code: 12345
 miles_within: 10
+
+manual_mode: true # Set to true for manual login, false for automated

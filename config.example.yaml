@@ -1,18 +1,18 @@
-first_name: John
-last_name: Doe
-dob: 01/01/2000 # mm/dd/yyyy
-last_4_ssn: 9999
-email: john.doe@gmail.com
+first_name: keanu
+last_name: clopton
+dob: 07/13/2009 # mm/dd/yyyy
+last_4_ssn: 4143
+email: cloptonkeanu713@gmail.com
 
 
-date: 12/31/2024 # mm/dd/yyyy
+date: // # mm/dd/yyyy
 time:
-  start: "15:00" # 24 hour format
+  start: "6:00" # 24 hour format
   end: "17:00" # 24 hour format
 
 type_id: 81 # 71 for first time, 81 for renewal
 
-zip_code: 12345
-miles_within: 10
+zip_code: 76082
+miles_within: 50
 
 manual_mode: true # Set to true for manual login, false for automated
